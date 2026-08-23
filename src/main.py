@@ -1,7 +1,7 @@
 import cv2
-from nose_cam import track_nose
+from mediapipe_gesture_recognition.nose_cam import track_nose
 from ultralytics import YOLO
-from YOLO import detect_objects
+from mediapipe_gesture_recognition.YOLO import detect_objects
 from tracker import Tracker
 from mediapipe_gesture_recognition.hand_tracker import run_hand_tracker
 

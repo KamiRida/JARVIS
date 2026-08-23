@@ -3,6 +3,7 @@ import cv2
 import mediapipe as mp
 from pathlib import Path
 from typing import Optional, List, Tuple
+from .light_logic import light_logic
 
 # === CONFIGURATION ===
 # Path to the .task model file. MUST BE placed at the repository/script root.
@@ -35,6 +36,8 @@ HAND_CONNECTIONS = [
 # === All this nonense above is just to make the demo look cool ===
 
 def print_result(result, output_image, timestamp_ms: int):
+    global _latest_gesture, _latest_landmarks_norm
+
     """Callback for live-stream results, because its an asynchronous API we have to use a callback for its reponse. 
 
     The demo simpily prints the result
@@ -51,10 +54,11 @@ def print_result(result, output_image, timestamp_ms: int):
         handedness = result.handedness[0][0].category_name
         text = f"{handedness} hand - {gesture.category_name} - Confidence: ({gesture.score:.2f})"
         print(f'Reconized: {text}')
+        _latest_gesture = gesture.category_name
+    else:
+        _latest_gesture = "None"
 
-    # update shared state
-    global _latest_gesture, _latest_landmarks_norm
-    _latest_gesture = text
+    
 
     # store normalized image-space landmarks (x, y)
     if result and getattr(result, 'hand_landmarks', None):
@@ -99,9 +103,10 @@ def run_hand_tracker(frame):
     recognizer.recognize_async(mp_image, timestamp_ms)
 
     # Draw the latest gesture so you can see what the heck it is
-    detected_gesture = _latest_gesture
-    if detected_gesture:
-        cv2.putText(frame_flipped, detected_gesture, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
+    
+    if _latest_gesture:
+        
+        light_logic(_latest_gesture)
 
     # ===== Draw hand landmarks, this is totatly unessassry but looks cool as heck =====
     if _latest_landmarks_norm:
