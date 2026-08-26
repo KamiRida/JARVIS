@@ -28,4 +28,55 @@ def light_logic(latest_gesture):
         last_gesture = latest_gesture
         none_start_time = None
 
-    
+     #Turning on and off left lamp
+
+    if latest_gesture == "Victory" and last_gesture != latest_gesture: 
+        asyncio.run(tp_link.left_turn_on())
+        last_gesture = latest_gesture
+        none_start_time = None
+    if latest_gesture == "Closed_Fist" and last_gesture == "Victory":         
+        asyncio.run(tp_link.left_turn_off())        
+        last_gesture = latest_gesture
+        none_start_time = None
+
+
+    #Turning on and off LED 1
+
+    if latest_gesture == "Thumb_Up" and last_gesture != latest_gesture: 
+        asyncio.run(tp_link.led1_turn_on())
+        last_gesture = latest_gesture
+        none_start_time = None
+    if latest_gesture == "Closed_Fist" and last_gesture == "Thumb_Up":         
+        asyncio.run(tp_link.led1_turn_off())        
+        last_gesture = latest_gesture
+        none_start_time = None
+
+
+    #Turning on and off LED 2
+
+    if latest_gesture == "Thumb_Down" and last_gesture != latest_gesture: 
+        asyncio.run(tp_link.led2_turn_on())
+        last_gesture = latest_gesture
+        none_start_time = None
+    if latest_gesture == "Closed_Fist" and last_gesture == "Thumb_Down":         
+        asyncio.run(tp_link.led2_turn_off())        
+        last_gesture = latest_gesture
+        none_start_time = None
+
+
+    #Turning on and off all lights
+
+    if latest_gesture == "Open_Palm" and last_gesture != latest_gesture: 
+        asyncio.run(tp_link.right_turn_on())
+        asyncio.run(tp_link.left_turn_on())
+        asyncio.run(tp_link.led1_turn_on())
+        asyncio.run(tp_link.led2_turn_on())
+        last_gesture = latest_gesture
+        none_start_time = None
+    if latest_gesture == "Closed_Fist" and last_gesture == "Open_Palm":         
+        asyncio.run(tp_link.right_turn_off())
+        asyncio.run(tp_link.left_turn_off())
+        asyncio.run(tp_link.led1_turn_off())
+        asyncio.run(tp_link.led2_turn_off())
+        last_gesture = latest_gesture
+        none_start_time = None

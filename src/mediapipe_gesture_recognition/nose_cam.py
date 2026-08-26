@@ -1,12 +1,14 @@
 import cv2
 import serial
 import sys
+import time
 
 # REPLACED: MediaPipe imports/detector with OpenSeeFace.
 sys.path.append("/Users/kamransalahuddin/OpenSeeFace")
 from tracker import Tracker
 
-arduinoData = serial.Serial('/dev/cu.usbserial-A5069RR4', 9600)
+arduinoData = serial.Serial('/dev/cu.usbserial-A5069RR4', 115200)
+time.sleep(2)
 
 def send_coordinates_to_arduino(x, y):
     coordinates = f"{x},{y}\r"
@@ -30,12 +32,12 @@ def track_nose(img, tracker):
 
         cv2.circle(img, (x, y), 6, (0, 0, 255), -1)
 
-        
+        print(x, y)
 
         send_coordinates_to_arduino(
             int(x),
             int(y)
         )
     return img
-
+    
 
