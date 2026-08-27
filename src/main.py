@@ -26,6 +26,8 @@ tracker = Tracker(
 while True:
 
     ret, img = webcam.read()
+    img = cv2.rotate(img, cv2.ROTATE_180)
+
     if not ret:
         continue
     img = detect_objects(img)
