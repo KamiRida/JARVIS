@@ -20,7 +20,7 @@ def pass_voice_input(text):
         model='qwen3:8b',
         messages=[{'role': 'user', 'content': text}],
         stream=True,
-        think=True
+        think=False
     )
 
     for chunk in stream:
