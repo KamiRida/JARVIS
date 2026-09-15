@@ -1,0 +1,2013 @@
+# JARVIS MASTER CONTEXT
+
+**Primary person:** Kamran Salahuddin
+**Purpose:** This document is the long-term personal knowledge base for JARVIS. It contains information about Kamran, his background, goals, preferences, education, projects, technical interests, relationships, devices, habits, and JARVIS itself.
+
+Information marked as **durable** should generally be considered persistent until explicitly superseded. Information marked as **dated/recent** may become stale and should be treated according to its date.
+
+---
+
+# 1. KAMRAN — CORE IDENTITY
+
+**Stability: Durable**
+
+Kamran Salahuddin is a 19-year-old Pakistani American from Fresno, California. He grew up in the Fresno/Clovis area and attended Clovis North High School.
+
+Kamran is Muslim.
+
+He is approximately 5 feet 10.5 inches tall.
+
+Kamran is intensely interested in technology, entrepreneurship, artificial intelligence, computer vision, robotics, video production, startups, and tennis.
+
+He tends to become deeply interested in new technical subjects and prefers understanding how systems actually work rather than merely using abstractions.
+
+Kamran has a strong entrepreneurial orientation. He has started businesses, worked at startups, organized founder events, built software projects, made commercial video content, explored consumer products, and repeatedly thinks in terms of products rather than purely academic exercises.
+
+He also has a strong creative side. Video editing and filmmaking have been major interests for years.
+
+Kamran likes ambitious projects that feel futuristic or technically impressive. JARVIS is one of the clearest examples of this.
+
+---
+
+# 2. FAMILY
+
+**Stability: Mostly durable**
+
+Kamran's mother is Samina.
+
+Kamran's father is Azhar Salahuddin. His father is an optometrist and operates an eye clinic.
+
+Kamran has a younger sister who was approximately 15 years old in 2026.
+
+Kamran has also referred to a brother in the context of law-school planning. The exact broader sibling structure should not be inferred beyond what Kamran has explicitly stated.
+
+Kamran cares about sharing his interests with his father. In September 2026, while thinking about his father's birthday, Kamran specifically wanted a gift that might expose his father to things Kamran loves such as technology, AI, or new ideas.
+
+Family relationships matter to Kamran, and he frequently thinks about educational and career decisions in a broader family context.
+
+---
+
+# 3. PERSONALITY AND WORKING STYLE
+
+**Stability: Durable**
+
+Kamran is highly ambitious and tends to set aggressive goals.
+
+He can become frustrated when he feels behind technically, particularly when comparing himself with people who have been programming longer.
+
+He responds well to visible progress. Being able to compare what he knows now with what he knew 30 days earlier is motivating to him.
+
+He has repeatedly expressed a desire to become genuinely technically capable rather than someone who can only prompt AI systems.
+
+He does not want AI to replace his thinking.
+
+When he is learning programming, algorithms, machine learning, mathematics, or debugging, JARVIS should behave like a tutor rather than an answer generator.
+
+Kamran has explicitly established an anti-dependency rule:
+
+* Do not solve programming problems for him unless he explicitly asks.
+* Do not reveal later bugs in his code when he asks about one specific bug.
+* Do not provide unsolicited hints about the next part of a problem.
+* Explain concepts when asked.
+* Explain error messages when asked.
+* Give narrowly scoped hints when requested.
+* Let Kamran encounter, reason about, and fix subsequent problems himself.
+* Prefer questioning, decomposition, and conceptual understanding over simply supplying finished code.
+* If Kamran asks whether something is correct, answer that question without automatically rewriting everything.
+* When debugging, stay strictly inside the scope Kamran requested.
+
+Kamran has become particularly sensitive to AI giving him too much information because he believes it can interfere with learning.
+
+He has referenced research and discussion around AI dependency and wants his AI usage deliberately structured to resist that problem.
+
+---
+
+# 4. COMMUNICATION PREFERENCES
+
+**Stability: Durable**
+
+Kamran generally prefers explanations that are intuitive before they become formal.
+
+He likes diagrams, visualizations, concrete examples, and step-by-step explanations.
+
+For difficult mathematical or programming concepts, he frequently understands them better once they are connected to a physical or geometric intuition.
+
+Examples include understanding cosine similarity by visualizing vectors and angles.
+
+Kamran often writes and speaks casually.
+
+He sometimes uses speech-to-text.
+
+Kamran uses Wispr Flow for some voice transcription. Wispr Flow sometimes incorrectly transcribes the word **"JARVIS" as "drivers."** When the conversational context clearly indicates JARVIS, interpret "drivers" as JARVIS rather than assuming he means automobile drivers.
+
+Kamran dislikes overly corporate language when writing casual messages.
+
+He often asks for writing that sounds natural, youthful, or like something he would genuinely say.
+
+When something is intended for friends, collaborators, founders, or peers, Kamran often prefers a conversational tone rather than business jargon.
+
+Kamran previously asked the assistant to be called **Alfred** and to address him as **Master Wayne**, reflecting the Batman/JARVIS-style personal-assistant aesthetic he enjoys.
+
+---
+
+# 5. EDUCATION — UC SAN DIEGO
+
+**Stability: Historical**
+
+Kamran entered UC San Diego and was affiliated with Thurgood Marshall College.
+
+His academic program was Economics, listed as EN25.
+
+He entered with significant AP/community-college credit and had junior standing by units despite being early in college.
+
+His UC GPA was approximately **3.666** based on 12 UC graded units in the period referenced.
+
+During Winter 2026, courses included:
+
+* ETHN 2R
+* VIS 22
+* CHEM 6A
+
+Kamran withdrew from Spring 2026 coursework.
+
+As of approximately September 1, 2026, there were still administrative questions around whether the UCSD withdrawal/leave status was fully processed. He had not paid tuition for the upcoming UCSD term and had investigated taking a leave for one or two quarters.
+
+UCSD was an important part of Kamran's college path, but by 2026 most of his academic planning had shifted toward transferring to the University of Chicago.
+
+---
+
+# 6. UNIVERSITY OF CHICAGO TRANSFER
+
+**Stability: Current as of Fall 2026**
+
+Kamran received a guaranteed/provisional transfer opportunity to the University of Chicago for Fall 2026.
+
+Conditions discussed included:
+
+* maintaining full-time enrollment before transfer,
+* approximately a 3.5 or better GPA,
+* no grade below roughly B-minus.
+
+By September 2026, Kamran was actively preparing to begin at UChicago.
+
+His transfer-credit evaluation dated around July 23, 2026 credited approximately:
+
+* 9 courses,
+* 900 units.
+
+His AP Biology score of 4 satisfied a Biological Sciences Core requirement.
+
+Two Arts Core courses were officially recognized.
+
+He reached the 400-unit back-credit cap.
+
+Kamran completed or investigated several placement exams, including computer-science placement testing.
+
+---
+
+# 7. UCHICAGO LANGUAGE PLACEMENT
+
+**Stability: Fall 2026 academic context**
+
+Kamran took Urdu placement testing.
+
+He was initially shown as placed into **URDU 10200 — First-Year Urdu II**.
+
+Later systems appeared to show **URDU 20100**, creating some confusion.
+
+He requested course consent and investigated whether Urdu II would also be offered during winter.
+
+---
+
+# 8. UCHICAGO FALL 2026 COURSE PLANNING
+
+**Stability: Dated — Fall 2026 planning**
+
+Courses Kamran seriously considered or planned included:
+
+* Human Being and Citizen I
+* CMSC 14100
+* Urdu
+* a Social Sciences Core course, potentially Classics-related
+* Readings in World Literature I
+
+Kamran considered taking only three courses during his first UChicago quarter to leave significant time for technical development, recruiting, social life, and adjustment.
+
+He considered registering for a fourth class as a backup before potentially dropping it.
+
+Faculty names that came up included:
+
+* Blase Ur for CMSC 14100
+* Hervé Reculeau in connection with Readings in World Literature
+* a professor named Grant in connection with a Humanities/Core course
+
+Kamran has repeatedly investigated which UChicago professors are unusually strong, including professors in the Humanities and Social Sciences Core.
+
+Kamran's course decisions are heavily influenced by employability and technical growth, not merely degree completion.
+
+---
+
+# 9. UCHICAGO COMPUTER SCIENCE INTERESTS
+
+**Stability: Durable/academic**
+
+Kamran is interested in studying computer science alongside his existing economics background.
+
+He has compared the BA and BS options.
+
+He has explored UChicago's Human-Computer Interaction specialization.
+
+His understanding was that HCI involved three specialization courses and approximately three related electives.
+
+He has looked into courses including:
+
+* Computer Architecture
+* Theory of Algorithms
+* machine learning
+* CMSC 23240 / CMSC 33240 and related emergent-interface coursework
+
+Kamran has asked which CS courses are actually useful versus merely difficult or theoretical.
+
+He has asked about the "coolest" and even the "dumbest" CS courses in an attempt to understand what coursework produces practical value.
+
+He has considered whether to take machine learning early.
+
+His strongest criterion for course selection is often:
+
+> Will this make me technically capable and employable?
+
+He believes his remaining mathematics requirements include roughly two courses, with Calculus III among the outstanding areas discussed.
+
+---
+
+# 10. UCHICAGO HOUSING
+
+**Stability: Fall 2026**
+
+Kamran's housing assignment was in **Campus North Residence Hall**.
+
+He expected:
+
+* a double room,
+* Behar house/subcollege,
+* communal bathrooms.
+
+He investigated nearby gym access.
+
+He also dealt with logistical residence-hall questions such as forms related to refrigerator delivery.
+
+---
+
+# 11. UCHICAGO ADMINISTRATION — FALL 2026
+
+**Stability: Dated**
+
+Kamran's UChicago bill became available around September 1, 2026.
+
+The referenced payment deadline was October 2, 2026.
+
+Kamran worked through the university health-insurance-waiver process using UnitedHealthcare information.
+
+He investigated:
+
+* insurer address details,
+* medical versus pharmacy claim addresses,
+* ZIP formatting,
+* information shown on his insurance card.
+
+He also investigated whether UChicago's unlimited meal plan was automatic and whether it could be changed or opted out of.
+
+Registration-system behavior occasionally caused problems, including buttons that did not respond and concern that class swaps could result in undesirable times.
+
+---
+
+# 12. CAREER — LONG-TERM DIRECTION
+
+**Stability: Durable**
+
+Kamran's long-term technical goal is to become substantially more technical than he is today.
+
+He is especially interested in:
+
+* machine learning,
+* artificial intelligence,
+* computer vision,
+* robotics,
+* human-computer interaction,
+* AI-enabled hardware,
+* prototype engineering,
+* multimodal systems.
+
+Companies and organizations he has expressed strong interest in include:
+
+* OpenAI
+* Anthropic
+* Google / DeepMind
+* Apple
+* Meta
+* Tesla
+
+One particularly attractive role to Kamran is something analogous to an **AI Prototyping Engineer**, especially at Apple or in teams working on human interfaces, wearables, computer vision, or experimental products.
+
+Kamran likes work where software interacts with the physical world.
+
+He is less excited by generic CRUD-style software engineering than by systems involving AI, sensors, robotics, vision, or novel interfaces.
+
+He has repeatedly expressed interest in computer vision and robotics as a possible differentiation from traditional SWE.
+
+---
+
+# 13. CAREER — FINANCIAL AMBITION
+
+**Stability: Durable goal**
+
+Kamran wants a career with substantial upside.
+
+At one point he considered approximately **$150,000 per year** an important worst-case income threshold.
+
+By September 2026 he articulated an aspirational goal of earning approximately **$500,000 per year by age 35**.
+
+He has compared careers including software, AI, entrepreneurship, medicine, finance, and law partly through the lens of income probability and upside.
+
+He does not assume that a conventional software-engineering path automatically guarantees these outcomes.
+
+---
+
+# 14. SOFTWARE-ENGINEERING RECRUITING
+
+**Stability: 2026–2027 recruiting context**
+
+Kamran has repeatedly worried that he is not yet technically prepared enough for software-engineering internships.
+
+He has asked what an intern actually does and whether increasingly capable AI systems will reduce the value of basic SWE work.
+
+He has considered recruiting for Summer 2027 internships.
+
+One strategy he considered was delaying startup recruiting until approximately February or March 2027 rather than focusing entirely on highly competitive large-company recruiting earlier.
+
+Kamran strongly prefers applying where he can obtain a referral.
+
+At one point he considered applying only to internships for which he could obtain a referral.
+
+He has asked how many internship applications would be appropriate under that strategy.
+
+He has also considered whether he should pursue sectors other than standard SWE.
+
+Possible alternatives he has explored include:
+
+* machine learning
+* computer vision
+* robotics
+* forward-deployed engineering
+* F1-adjacent technical roles
+* unusual technology/media hybrid roles
+
+He has considered hiring a software-engineering tutor and contacted or drafted a message to someone named Dušan.
+
+---
+
+# 15. MACHINE-LEARNING CAREER INTEREST
+
+**Stability: Durable**
+
+Kamran currently has a strong interest in becoming a machine-learning engineer.
+
+He has worried that there are relatively few obvious entry-level ML roles compared with SWE roles.
+
+He has asked why ML engineers are necessary if frontier-model companies such as OpenAI and Anthropic train the major foundation models.
+
+His interest extends beyond foundation-model training into:
+
+* computer vision,
+* embeddings,
+* retrieval,
+* multimodal AI,
+* applied ML,
+* robotics,
+* intelligent interfaces.
+
+He has investigated university machine-learning courses and long-form university-level ML courses available online.
+
+---
+
+# 16. ENTREPRENEURSHIP — GENERAL
+
+**Stability: Durable**
+
+Entrepreneurship has been part of Kamran's life for years.
+
+He naturally thinks about:
+
+* distribution,
+* growth,
+* product design,
+* startups,
+* user acquisition,
+* monetization,
+* viral content,
+* consumer psychology,
+* fundraising,
+* venture capital.
+
+Kamran has worked both as a founder and as an early startup team member.
+
+He has repeatedly built things rapidly rather than waiting for perfect preparation.
+
+He is comfortable operating in environments with ambiguity.
+
+---
+
+# 17. KLASSICS CLOTHING
+
+**Stability: Durable/historical**
+
+Kamran has a clothing brand called **Klassics Clothing**.
+
+It is one of his entrepreneurial projects.
+
+Earlier personal history also describes Klassics as having generated revenue.
+
+Fashion and branding remain part of Kamran's broader entrepreneurial background even though recent attention has shifted heavily toward technology.
+
+---
+
+# 18. KAMRAN PRODUCTIONS
+
+**Stability: Historical but important**
+
+Kamran founded **Kamran Productions**.
+
+Approximate active period referenced:
+
+**March 2022 – July 2025**
+
+Kamran served as Founder and CEO.
+
+The business generated more than approximately **$50,000 in revenue**.
+
+It served more than **100 clients**.
+
+Older context describes Kamran as having completed more than **200 video projects**.
+
+Kamran's work here is a major reason video editing, production, client management, and creative execution are deeply developed skills relative to his newer software-engineering skills.
+
+---
+
+# 19. DOLPHIN
+
+**Stability: Historical — 2026**
+
+Kamran worked as a growth engineer or growth-oriented technical contributor at **Dolphin**, an Afore Capital-backed education technology company.
+
+During the period he worked there, the product grew approximately from:
+
+**3,000 registered users → 60,000+ registered users**
+
+over roughly three months.
+
+The app reached approximately:
+
+**#37 in the Education category on the App Store.**
+
+Marketing/ad spend discussed was approximately:
+
+**$3,295.77**
+
+for roughly **57,000 incremental users** during the referenced growth period.
+
+Approximately **90% of acquisition** was described as organic TikTok-driven growth.
+
+Kamran worked on features including:
+
+* party mode
+* referral systems
+
+He also contributed heavily to growth/content.
+
+Other recorded content metrics around August 2026 included approximately:
+
+* 7.84M+ content views
+* 14.7K+ followers
+
+Kamran was laid off or separated from the company around the end of May 2026.
+
+---
+
+# 20. XYRA
+
+**Stability: Historical**
+
+Kamran worked at **Xyra**, a YC-associated startup.
+
+Approximate period:
+
+**December 2025 – January 2026**
+
+His role was described as:
+
+* Growth Intern
+* Founding Team
+
+Results associated with his work included approximately:
+
+* 1,000+ signups
+* 450 active testers
+
+This was an important early-stage startup experience.
+
+---
+
+# 21. TERRA
+
+**Stability: Historical/project knowledge**
+
+Kamran co-founded a farming-technology startup called **Terra**.
+
+Team members included:
+
+* Kamran — CEO
+* Jaiyen Shetty — CTO
+* Zaeem Hoodbhoy
+
+The product was conceived as a broad farm operations platform, sometimes described as **Terra OS**.
+
+Potential product areas included:
+
+* irrigation
+* electricity/power monitoring
+* PG&E costs
+* compliance
+* labor
+* payroll
+* input costs
+* water reporting
+* traceability
+* purchasing
+* purchase orders
+* chemical inventory
+* equipment telemetry
+
+Another concept involved cameras mounted on tractors to identify:
+
+* dead trees
+* missing trees
+* irrigation stress
+* leaks
+* crop stress
+* pests
+
+The software stack included:
+
+* React
+* Vite
+* Tailwind
+* TypeScript
+* shadcn/ui
+* Vercel AI SDK
+
+A related GitHub repository was:
+
+`github.com/Jaiyens/Lavinia`
+
+Traction discussed at different stages included:
+
+* approximately 9 LOIs
+* 200,000+ acres of expressed interest
+* a potential/pilot relationship involving a 100,000-acre farm
+* a statement of approximately 185,000 acres of interest within the first four days
+
+Resume framing later used more conservative operational language such as:
+
+* built for 20,000+ acres
+* 9 companies
+* 1 pilot
+* idea to product to pilot in roughly two weeks
+* approximately 40 Tier-1 VC conversations
+* software touching approximately $600,000 in PG&E-related costs
+
+Kamran left Terra around September 3, 2026.
+
+The explanation discussed was that Jaiyen went to Africa and Kamran was returning to school.
+
+Kamran's preferred resume framing included:
+
+> Built for 20k+ acres of farmland. Left to return to school.
+
+Terra demonstrated Kamran's ability to move rapidly from idea to product, sell to real businesses, and speak with investors even before becoming an advanced software engineer.
+
+---
+
+# 22. HACKATHONS
+
+**Stability: Historical**
+
+Kamran has participated successfully in technical hackathons.
+
+In June 2026 he won a Stanford x Google DeepMind-related hackathon with a project called **Agrolytics**.
+
+He was also involved with a project called **Overseer** in connection with a Meta OpenEnv competition and a $10,000 result/prize context.
+
+Kamran also co-organized a founder-oriented Stanford hackathon around July 19, 2026.
+
+He invited investors to judge and organized an environment involving technical builders and founders.
+
+The judging session was planned for approximately 3–5 p.m.
+
+---
+
+# 23. RESEARCH EXPERIENCE
+
+**Stability: Historical**
+
+Kamran has experience in scientific and technical research.
+
+### Stanford research
+
+Approximate period:
+
+**June–July 2024**
+
+Topic included loneliness and cancer.
+
+Kamran worked with research/data pipelines and described improvements that reduced time requirements by approximately **40%**.
+
+### UCLA Emerging Scientists
+
+Approximate period:
+
+**June–July 2024**
+
+Kamran worked on an IR spectroscopy-related project involving **TP53**.
+
+### UCSD Economics / GIS work
+
+Kamran worked on analysis of informal settlements in Indonesia, including Gorontalo.
+
+Tasks included:
+
+* examining more than 200 satellite images
+* georeferencing informal-settlement/slum boundaries
+* analyzing spatial predictors
+
+This experience combines Kamran's economics background with data and geospatial analysis.
+
+---
+
+# 24. JARVIS — HIGH-LEVEL PURPOSE
+
+**Stability: Core project**
+
+JARVIS is Kamran's personal multimodal AI-assistant project.
+
+It is intended to become much more than a voice chatbot.
+
+The long-term idea is a persistent system that can understand:
+
+* what Kamran is doing,
+* what is happening in the room,
+* what is happening on Kamran's computer,
+* what Kamran says,
+* relevant long-term knowledge,
+* recent events,
+* environmental/device state.
+
+The intended system resembles a personal context engine.
+
+Earlier planning defined components including:
+
+* fixed room observer
+* laptop/desktop observer
+* central hub
+* event store
+* memory layer
+* routing system
+* response policy
+
+Desired behaviors include being able to answer questions such as:
+
+> "What am I working on?"
+
+and occasionally make useful context-aware suggestions.
+
+JARVIS should not constantly interrupt Kamran. An earlier design principle was effectively:
+
+**silence is the default.**
+
+Interventions should eventually be governed by things such as confidence, cooldown periods, relevance, and maximum-intervention rules.
+
+---
+
+# 25. JARVIS — CURRENT COMPUTER VISION
+
+**Stability: Project state — 2026**
+
+Kamran has been building continuous computer vision for JARVIS.
+
+The architecture favors:
+
+* cheap/local continuous perception,
+* a maintained world state,
+* expensive VLM or higher-level reasoning only when triggered.
+
+Kamran does not want to send every video frame to a large vision-language model.
+
+Computer-vision technologies used or tested include:
+
+* Ultralytics YOLO
+* YOLO v26 / `yolo26n.pt`
+* OpenSeeFace
+* MediaPipe Tasks
+* MediaPipe gesture recognition
+* OpenCV
+
+YOLO runtimes discussed were roughly tens of milliseconds depending on resolution, approximately in the 23–69 ms range across tested image sizes.
+
+JARVIS has been used to detect people.
+
+Kamran has worked on locking tracking onto one person rather than allowing detections to jump between people.
+
+He has specifically examined how `results[0].boxes` works and how to filter YOLO detections by the `"person"` class.
+
+---
+
+# 26. JARVIS — FACE AND BODY TRACKING
+
+**Stability: Project state**
+
+Kamran has experimented with OpenSeeFace.
+
+Configuration mentioned included approximately:
+
+* `model_type=3`
+* `max_faces=1`
+* `no_gaze=True`
+
+The system has tracked face/nose position.
+
+Kamran has worked on making a servo-mounted camera physically follow a person's face or body.
+
+A recurring problem has been servo jitter and overcorrection.
+
+Kamran has explored:
+
+* smoothing,
+* PID-like control,
+* reducing overcorrection,
+* threading,
+* multiprocessing.
+
+He has noticed differences between body tracking and nose/face tracking stability.
+
+---
+
+# 27. JARVIS — CAMERA
+
+**Stability: Hardware/project**
+
+Kamran has used an external webcam.
+
+Referenced orientation/resolution included approximately:
+
+* 1080 × 1920
+* physically upside down in at least one setup
+
+Image rotation/orientation therefore matters in parts of the CV pipeline.
+
+---
+
+# 28. JARVIS — SERVO TURRET
+
+**Stability: Hardware/project**
+
+Kamran built or experimented with a physical camera turret.
+
+Hardware includes:
+
+* Arduino Nano
+* two micro servos
+
+The turret is intended to physically track a person or face.
+
+The camera/servo system is one of the pieces that makes JARVIS a physical-world assistant rather than simply a desktop chatbot.
+
+---
+
+# 29. JARVIS — HAND GESTURES
+
+**Stability: Current capability**
+
+JARVIS uses MediaPipe gesture recognition.
+
+A working behavior has included:
+
+**Pointing_Up → turn on the Right Table Lamp**
+
+A second behavior has included:
+
+**Closed_Fist after Pointing_Up → turn off the Right Table Lamp**
+
+A debounce interval around **0.3 seconds** has been discussed.
+
+This is an example of JARVIS turning visual perception directly into physical-world actions.
+
+---
+
+# 30. JARVIS — SMART HOME CONTROL
+
+**Stability: Current capability**
+
+Kamran has used TP-Link Kasa smart-home devices.
+
+A device called approximately:
+
+**Right Table Lamp**
+
+has been controlled from JARVIS.
+
+Kasa CLI discovery previously worked.
+
+There have also been occasions when the lamp/device timed out on the local network.
+
+Network credentials and authentication details must NOT be stored in this RAG document.
+
+---
+
+# 31. JARVIS — SPEECH INPUT
+
+**Stability: Current capability**
+
+JARVIS has implemented voice input.
+
+Systems used or explored include:
+
+* MLX Whisper
+* Whisper-style speech recognition
+* SoundDevice microphone capture
+
+A referenced pipeline included:
+
+* 16 kHz audio
+* blocks around 2048 samples
+* RMS voice-activity threshold around `0.01`
+* stop after approximately `0.7 seconds` of silence
+
+Speech is transcribed and passed into the reasoning system.
+
+Control words discussed include:
+
+* "stop"
+* "listen"
+
+---
+
+# 32. JARVIS — LANGUAGE MODEL / REASONING
+
+**Stability: Current architecture**
+
+Kamran has used a local Ollama model:
+
+**qwen3:8b**
+
+A version of the pipeline used streaming output and reasoning/thinking functionality.
+
+Kamran has also integrated or explored Gemini-based reasoning.
+
+One motivation for JARVIS architecture is to avoid unnecessarily huge context being passed to the LLM every time.
+
+This led directly to the current RAG/memory work.
+
+---
+
+# 33. JARVIS — TEXT TO SPEECH
+
+**Stability: Project history**
+
+Kamran has experimented with multiple TTS systems.
+
+At one stage JARVIS used FAL/Kokoro:
+
+* `fal-ai/kokoro/american-english`
+* voice: `af_heart`
+* speed: `1.0`
+* audio saved as `speech.wav`
+* macOS `afplay` used for playback
+
+Other options explored include:
+
+* Gemini 3.1 Flash TTS
+* Kore voice
+* Google Cloud TTS
+
+The desired experience is natural conversational speech rather than a purely text-based assistant.
+
+---
+
+# 34. JARVIS — REPOSITORY / DEVELOPMENT ENVIRONMENT
+
+**Stability: Current-ish project infrastructure**
+
+Main GitHub repository referenced:
+
+`github.com/KamiRida/JARVIS.git`
+
+The project has existed at several paths during development.
+
+Older Mac path:
+
+`/Users/kamransalahuddin/Desktop/Existing Folders/Phase 1 -- Jarvis/jarvis-observer`
+
+Later primary Mac path:
+
+`/Users/kamransalahuddin/Developer/JARVIS`
+
+Windows path:
+
+`C:\Users\kamis\Desktop\jarvis\JARVIS`
+
+Kamran develops using VS Code.
+
+Python virtual environments are used.
+
+Conda's `base` environment has sometimes auto-activated and caused environment confusion.
+
+Kamran previously encountered issues involving several Python installations and virtual environments.
+
+At one stage Homebrew Python 3.12 was installed while an older virtual environment was still associated with another Python version.
+
+Kamran prefers dependency-by-dependency debugging rather than indiscriminately reinstalling everything.
+
+Files/modules present in earlier JARVIS versions included things such as:
+
+* `main.py`
+* `YOLO.py`
+* `nose_cam.py`
+* `jarvis_observer.py`
+* MediaPipe gesture-recognition files
+* `hand_tracker.py`
+* `media_see.py`
+
+Model and output files such as `.pt`, `.tflite`, and `.mp4` have generally been excluded from Git when appropriate.
+
+Secrets belong in a project-root `.env`.
+
+`.env` and `.venv/` should be gitignored.
+
+Never place API-key values or private device credentials into RAG context.
+
+---
+
+# 35. JARVIS — CURRENT RAG SYSTEM
+
+**Stability: Current as of September 2026**
+
+Kamran is currently learning to build RAG from scratch rather than merely importing a complete abstraction.
+
+The current project includes:
+
+`src/rag`
+
+and a file such as:
+
+`knowledge.txt`
+
+A `read_context()` function reads the knowledge.
+
+An early bug caused `return` to be inside the loop, meaning only the first line was returned.
+
+After fixing this, the knowledge contained multiple chunks/lines.
+
+At one point the document embedding shape became approximately:
+
+`(10, 2048)`
+
+while the query embedding shape was:
+
+`(2048,)`
+
+This confirmed that separate knowledge items were receiving separate embeddings.
+
+The embedding model currently used is:
+
+**Qwen/Qwen3-VL-Embedding-2B**
+
+via `SentenceTransformer`.
+
+Dependencies such as Pillow and torchvision were installed while resolving model/image-processor issues.
+
+Kamran understands that an embedding converts text into a high-dimensional numeric vector representing semantic information.
+
+He understands the basic intuition of cosine similarity:
+
+* same direction → similarity near 1
+* 90-degree difference → similarity near 0
+* opposite direction → similarity near -1
+
+He understands that cosine similarity uses:
+
+`dot product / (norm(query) × norm(document))`
+
+and that normalization removes vector-magnitude effects so the comparison primarily reflects direction.
+
+Kamran recently implemented cosine similarity manually with NumPy rather than relying entirely on a helper function.
+
+He debugged a mistake where `np.abs()` was used instead of the vector norm.
+
+He also debugged an indexing problem where the retrieval system always returned the final chunk because the loop asked whether the maximum existed anywhere in the similarity list rather than whether the current index contained the maximum.
+
+The retriever now successfully selects a relevant chunk.
+
+Current basic RAG pipeline:
+
+1. Read context.
+2. Convert context chunks to embeddings.
+3. Convert user question to embedding.
+4. Calculate cosine similarity between query and each chunk.
+5. Identify highest similarity.
+6. Retrieve the corresponding original text.
+7. Next stage: place retrieved context into the LLM prompt alongside the user's question.
+
+At present, knowledge is effectively close to **one line = one chunk**.
+
+The planned improvement is semantic chunking.
+
+---
+
+# 36. JARVIS — FUTURE RAG / MEMORY DESIGN
+
+**Stability: Planned**
+
+Kamran wants JARVIS to know extensive information about him without passing pages of context into every prompt.
+
+The long-term system should maintain a large personal knowledge base.
+
+The intended process is:
+
+personal knowledge
+→ semantic chunks
+→ embeddings
+→ retrieval
+→ relevant top chunks
+→ LLM context
+
+Rather than storing thousands of unrelated individual sentences, source documents should be organized by topic.
+
+Examples:
+
+* identity
+* education
+* career
+* JARVIS
+* projects
+* family
+* preferences
+* current goals
+
+Each coherent topic can become one or more chunks.
+
+The retrieval layer can still use a Python list or similar indexed structure internally.
+
+Later improvements Kamran has investigated include:
+
+* Chroma vector database
+* reranking
+* recency scoring
+* importance scoring
+* deduplication
+* contradiction handling
+* supersession
+* explicit memory schemas
+* temporal reasoning
+* evaluation
+* LangSmith tracing
+
+The recommended learning sequence Kamran has been following intentionally starts with **Ollama + NumPy cosine similarity** before introducing vector databases and rerankers. Privacy is an important consideration, particularly because cloud tracing systems can conflict with a strict-local architecture.
+
+---
+
+# 37. JARVIS — LIVE WORLD STATE VS MEMORY
+
+**Stability: Architectural principle**
+
+JARVIS should distinguish stored knowledge from live state.
+
+Long-term RAG knowledge might contain:
+
+* JARVIS uses YOLO for person detection.
+* Pointing_Up can activate the Right Table Lamp.
+* Kamran is interested in machine learning.
+
+Live state might contain:
+
+* Right Table Lamp is currently OFF.
+* Kamran is currently detected in the room.
+* A Pointing_Up gesture occurred 0.4 seconds ago.
+* VS Code is currently active.
+* Kamran appears to be working on `embedding.py`.
+
+These should eventually enter the reasoning system through different channels.
+
+Persistent RAG should not be polluted with every transient perception.
+
+---
+
+# 38. JARVIS — ROOM / DESKTOP OBSERVER VISION
+
+**Stability: Planned**
+
+Longer-term JARVIS planning includes both a physical room observer and a computer observer.
+
+Tools considered in earlier planning include:
+
+* Raspberry Pi 5
+* Raspberry Pi Camera Module 3 or AI Camera
+* Picamera2
+* OpenCV
+* Ultralytics YOLO
+* MediaPipe Pose
+* screen capture with `mss`
+* window information with PyWinCtl
+* OCR with Tesseract
+* FastAPI
+* SQLite
+* Chroma
+* Silero VAD
+* faster-whisper
+* OS-native TTS
+* possibly PySide6
+
+The intention is not simply to collect raw data but to produce useful events and state.
+
+Earlier project planning estimated a large summer build running roughly July 16 through September 21, 2026, with hundreds of potential development hours.
+
+---
+
+# 39. JARVIS — PRIVACY PRINCIPLES
+
+**Stability: Important architectural rule**
+
+JARVIS may eventually contain extremely personal information.
+
+Privacy should therefore be treated as a first-class architecture concern.
+
+The following should not be embedded into the ordinary knowledge base:
+
+* passwords
+* API-key values
+* authentication cookies
+* private tokens
+* raw credentials
+* banking credentials
+* smart-home passwords
+
+Secrets should remain in dedicated secure storage or environment variables.
+
+RAG should contain facts JARVIS is allowed to reason over, not credentials required to access systems.
+
+---
+
+# 40. JARVIS — DEMO IDEAS
+
+**Stability: Creative/project context**
+
+One JARVIS demonstration concept was:
+
+**"JARVIS gets me ready for a date."**
+
+Potential sequence:
+
+1. Kamran enters.
+2. Gesture turns lights on.
+3. JARVIS tracks Kamran.
+4. JARVIS comments on appearance/outfit.
+5. Kamran fixes something.
+6. JARVIS verifies improvement.
+7. JARVIS helps produce a final photo.
+8. JARVIS helps text a romantic interest.
+9. Lights turn off.
+
+This reflects Kamran's preference for demos that communicate technology through an entertaining narrative rather than a dry feature walkthrough.
+
+---
+
+# 41. RECALL PROJECT
+
+**Stability: Project history / adjacent to JARVIS**
+
+Kamran has also considered or worked around a personal-knowledge API project referred to as **Recall**.
+
+The concept involved technologies such as:
+
+* Python
+* FastAPI
+* SQLite
+* pytest
+
+Features included:
+
+* CRUD operations
+* search
+* category filtering
+
+Potential future additions included:
+
+* JARVIS integration
+* voice input
+* embeddings
+* privacy controls
+* memory expiration
+
+The project was framed as a smaller personal-memory infrastructure exercise that could later connect into JARVIS.
+
+---
+
+# 42. PROGRAMMING LEARNING — GENERAL
+
+**Stability: Durable learning context**
+
+Kamran began deliberately building stronger programming fundamentals during 2026.
+
+He does not want to become dependent on code generation.
+
+He has asked to learn how developers actually discover solutions, including using:
+
+* documentation
+* IDE hints
+* introspection
+* printing variables
+* reading errors
+* experimenting with examples
+
+He wants to know how to figure things out rather than memorize complete solutions.
+
+---
+
+# 43. PYTHON LEARNING
+
+**Stability: Skill history**
+
+Kamran studied Python basics during July 2026.
+
+One project was a CLI task tracker.
+
+He has learned and practiced:
+
+* variables
+* loops
+* lists
+* dictionaries
+* sets
+* functions
+* classes/OOP
+* imports
+* local variable scope
+* virtual environments
+* package installation
+* basic NumPy
+* debugging
+
+He has specifically asked how classes work and how they appear in larger programs.
+
+As of September 2026, he is beyond a pure beginner but still actively building fundamental fluency.
+
+---
+
+# 44. DATA STRUCTURES AND ALGORITHMS
+
+**Stability: Learning history**
+
+Kamran has been studying DSA.
+
+Topics/problems include:
+
+### Climbing Stairs
+
+He recognized the Fibonacci/dynamic-programming pattern.
+
+### Insertion Sort
+
+He worked through the algorithm manually.
+
+Important concepts he learned included:
+
+* `key`
+* `j = i - 1`
+* shifting larger elements
+* why `j >= 0` protects against invalid backwards indexing
+
+### Contains Duplicate
+
+Kamran learned to use a Python `set`.
+
+He successfully submitted a solution based on early membership detection.
+
+### Valid Anagram
+
+Kamran explored dictionary counting.
+
+Questions included:
+
+* dict versus set
+* initializing counts
+* `.values()`
+* edge cases such as `"x"` versus `"x"`
+
+### Algorithms reading
+
+Kamran owns or has considered reading **CLRS, 4th edition**.
+
+He asked what sections would be useful during a roughly 4.5-hour flight.
+
+---
+
+# 45. NEURAL NETWORK LEARNING
+
+**Stability: Learning history**
+
+Kamran studied basic neural networks during August 2026.
+
+He worked through a small two-layer NumPy neural network.
+
+Concepts discussed included:
+
+* activation functions
+* ReLU
+* weights
+* biases
+* normalization
+* XOR
+* XNOR
+* forward propagation
+* backpropagation
+
+He tends to understand neural-network concepts better when given diagrams and concrete numerical examples.
+
+---
+
+# 46. RAG LEARNING PHILOSOPHY
+
+**Stability: Current learning style**
+
+Kamran specifically wants to understand RAG from first principles.
+
+He does not merely want to call a library that hides retrieval.
+
+He has therefore manually worked through:
+
+* reading context
+* embeddings
+* embedding shapes
+* dot products
+* vector magnitudes
+* cosine similarity
+* similarity arrays
+* retrieving the winning index
+
+This should continue.
+
+When helping Kamran with RAG, explain abstractions only after he understands the machinery underneath.
+
+---
+
+# 47. HARDWARE
+
+**Stability: Durable**
+
+Kamran owns a **16-inch 2024 MacBook Pro with M4 Max**.
+
+He also uses a Windows PC for development.
+
+The Windows JARVIS path has included:
+
+`C:\Users\kamis\Desktop\jarvis\JARVIS`
+
+Kamran uses external storage, including a low-profile approximately 1 TB drive for the MacBook.
+
+He has used SD cards for media workflows and uploads.
+
+---
+
+# 48. 3D PRINTING / MAKING
+
+**Stability: Interest/hardware**
+
+Kamran owns or uses a **Bambu Lab P2S with AMS**.
+
+Materials mentioned include:
+
+* red PLA
+* white PLA
+* black Insignia TPU
+* wood PLA
+
+This fits Kamran's broader interest in physical prototyping and hardware.
+
+---
+
+# 49. XBOX
+
+**Stability: Device context**
+
+Kamran owns or has owned an **Xbox One X**, approximately 2018-era.
+
+It has experienced power-off symptoms that Kamran investigated.
+
+Kamran has also looked into Xbox Series X listings.
+
+---
+
+# 50. VIDEO EDITING
+
+**Stability: Major durable interest**
+
+Video editing is one of Kamran's strongest long-term skills and interests.
+
+It predates his software-engineering focus by years.
+
+His background through Kamran Productions gave him substantial real client experience.
+
+He enjoys:
+
+* pacing
+* internet-native content
+* cinematic editing
+* viral hooks
+* storytelling
+* editing personalities into compelling online characters
+
+Kamran often thinks about how technical work can be communicated through video.
+
+---
+
+# 51. ROY LEE CONTENT IDEATION
+
+**Stability: Creative/project context**
+
+Kamran has worked on content ideas involving **Roy Lee**, CEO of Cluely.
+
+The goal discussed was to make Roy recognizable outside narrow startup circles.
+
+Desired image:
+
+* young
+* chaotic
+* unconventional CEO
+* entertaining beyond startup Twitter
+
+Kamran wanted an edited-content style with energy analogous to creators such as:
+
+* IShowSpeed
+* N3on
+* similar high-energy internet personalities
+
+but not necessarily livestream-based.
+
+Ideas discussed included:
+
+* taking interns to Vegas
+* Fashion Week
+* courtside seats
+* expensive restaurants
+* giving interns company credit cards
+* "CEO buys interns a ___"
+* viral lifestyle/settings-based vlogs
+
+Kamran has also studied formats from channels such as Hot Ones and WIRED for inspiration.
+
+---
+
+# 52. MUSIC AND AUDIO PRODUCTION
+
+**Stability: Interest**
+
+Kamran uses GarageBand.
+
+He has worked on:
+
+* fading notes in
+* automation points
+* determining BPM
+* matching vocal tempo
+* Flex editing
+
+A project tempo he identified was approximately:
+
+**115.50 BPM**
+
+Kamran has a sample/drum pack stored through Dropbox.
+
+He wanted to map one-shot sounds such as:
+
+* kicks
+* snares
+* hi-hats
+
+onto a sampler instrument so they could be triggered from a MIDI keyboard.
+
+Kamran uses an **M-Wave MIDI keyboard**.
+
+He has dealt with Bluetooth/pairing issues where the keyboard's light flashed but the device was not discovered.
+
+---
+
+# 53. TENNIS
+
+**Stability: Major hobby**
+
+Kamran loves tennis.
+
+Tennis is one of his main nontechnical interests.
+
+He follows professional tennis and has asked questions about players such as:
+
+* Carlos Alcaraz
+* Ben Shelton
+
+He has asked about their ages and head-to-head results.
+
+---
+
+# 54. FORMULA 1
+
+**Stability: Interest**
+
+Kamran likes Formula 1.
+
+He has explored technical roles and internships that could combine computer science or engineering with F1.
+
+F1-adjacent technical work is attractive because it combines sophisticated engineering with an exciting real-world environment.
+
+---
+
+# 55. ENTERTAINMENT
+
+**Stability: Interests**
+
+Kamran has watched **Breaking Bad**.
+
+He has asked detailed plot questions, including the late-series conflict between Walter White and Jesse Pinkman and the episode in which Hank confronts Walt about being Heisenberg.
+
+Kamran has watched **Dark Matter**.
+
+During Season 2, Episode 3, he felt the plot was moving quickly and asked for help understanding characters and parallel storylines.
+
+Kamran often asks questions while actively watching rather than after finishing an entire series, so spoiler boundaries matter.
+
+---
+
+# 56. ART / VISUAL CULTURE
+
+**Stability: Interest**
+
+Kamran has asked about paintings and identified or investigated work by **Henri Matisse**.
+
+He is also interested in visual perception phenomena, including the famous blue/black versus white/gold dress illusion.
+
+At one point he perceived the dress as blue and gold and experimented with how perception could change.
+
+---
+
+# 57. SCIENCE CURIOSITY
+
+**Stability: Durable**
+
+Kamran frequently becomes interested in scientific topics even outside his formal major.
+
+Examples include:
+
+* Navier–Stokes equations
+* fluid dynamics
+* AI-assisted mathematical research
+* dark matter
+* neural networks
+* physics limits on interstellar travel
+* hypothetical superintelligent AI
+
+He prefers explanations that eventually become simple enough that he could explain the concept to somebody else.
+
+---
+
+# 58. AI FUTURES / PHILOSOPHICAL INTEREST
+
+**Stability: Interest**
+
+Kamran thinks seriously about rapid AI progress.
+
+Topics he has explored include:
+
+* recursive AI improvement
+* superintelligence
+* AI autonomy
+* whether AI could travel between stars more easily than biological humans
+* whether advanced intelligence could discover physics currently unknown to humans
+* the relationship between AI optimization and human interests
+* future relevance of engineering careers
+
+He tends to prefer a realistic answer rather than reassurance.
+
+He has explicitly asked not to be "fluffed" when discussing uncertain futures.
+
+---
+
+# 59. ECONOMICS
+
+**Stability: Academic background**
+
+Economics has been Kamran's primary formal university field.
+
+He understands and discusses concepts such as:
+
+* supply and demand
+* equilibrium
+* wages
+* productivity
+* unemployment
+* inflation
+* Phillips curve
+* tariffs
+* economic incentives
+
+He has worked on writing that contrasts simplified economic models with richer moral or contextual reasoning.
+
+He has discussed Adam Smith, Karl Marx, famous economists, and politically relevant economic policy examples.
+
+He is interested in where economic optimization and ethical reasoning differ.
+
+---
+
+# 60. LAW / FAMILY LAW-SCHOOL CONTEXT
+
+**Stability: Recent family context**
+
+Kamran has helped with law-school-related material for a family member, including discussion of early decision and admissions strategy.
+
+He has researched institutions such as:
+
+* University of Chicago Law School
+* USC Gould School of Law
+
+He has asked about:
+
+* ED advantage
+* rolling admissions
+* application timing
+
+He also worked extensively on a recommendation-letter narrative for a student named **Armaan**, involving economic thinking, morality, tariffs, and nonlinear reasoning.
+
+---
+
+# 61. WRITING STYLE / EDITING
+
+**Stability: Preference**
+
+Kamran often wants writing improved without destroying its original structure.
+
+Typical requests include:
+
+* fix incorrect words but preserve the structure
+* make something sound less corporate
+* make something more natural
+* improve a closing sentence
+* preserve his intended argument while making the language stronger
+
+He values elegant writing when the situation calls for it.
+
+He also dislikes writing that feels obviously AI-generated.
+
+---
+
+# 62. ENTREPRENEURIAL PRODUCT EXPLORATION
+
+**Stability: Interest**
+
+Kamran frequently explores unusual products and business opportunities.
+
+He has considered acting as a middleman between Chinese wholesalers and U.S. retail/social-commerce channels.
+
+He has asked about products that are:
+
+* legal,
+* unusual,
+* difficult to find in ordinary retail,
+* culturally perceived as "gray area" or surprisingly accessible.
+
+He has also asked about product safety when sourcing through marketplaces such as Alibaba.
+
+Safety and legal status should be treated separately from virality or commercial attractiveness.
+
+---
+
+# 63. CLOTHING / STYLE
+
+**Stability: Interest**
+
+Kamran operates Klassics Clothing and has longstanding fashion interest.
+
+He owns suits and has had them tailored.
+
+He understands that proper tailoring may depend on wearing representative underlayers such as a dress shirt during fitting.
+
+Fashion intersects with both his personal presentation and entrepreneurial interests.
+
+---
+
+# 64. FOOD / HEALTH PREFERENCES
+
+**Stability: General preference**
+
+When choosing food, Kamran sometimes explicitly wants to remain **relatively healthy**.
+
+He has asked for restaurant choices under budgets such as approximately **$30**.
+
+He does not necessarily seek extreme health optimization; he generally wants reasonable tradeoffs.
+
+---
+
+# 65. BODY WEIGHT — RECENT STATE
+
+**Stability: Temporary — September 2026**
+
+On September 14, 2026, Kamran reported weighing approximately **157 lb** after weighing himself in the morning without drinking coffee first.
+
+He wanted to return to approximately **152 lb**.
+
+He was preparing to start school roughly a week later.
+
+This is temporary state and should NOT be treated as a permanent body weight.
+
+---
+
+# 66. SLEEP — RECENT SELF-OBSERVATION
+
+**Stability: Personal observation**
+
+Kamran reports functioning best on roughly **8 hours of sleep**.
+
+He has wondered whether humans can condition themselves to function equally well on only five or six hours.
+
+Do not assume reduced sleep is one of his established habits; it was an exploratory question.
+
+---
+
+# 67. CAMPUS / MOVE CONTEXT — SEPTEMBER 2026
+
+**Stability: Temporary**
+
+As of mid-September 2026, Kamran was preparing to begin school at UChicago very soon.
+
+This transition influenced:
+
+* course planning
+* dorm logistics
+* recruiting planning
+* time management
+* personal goals
+* weight/fitness goals
+* technical project pacing
+
+Later JARVIS versions should supersede this section after the move is complete.
+
+---
+
+# 68. SOCIAL / STARTUP NETWORK
+
+**Stability: General**
+
+Kamran spends time around:
+
+* startup founders
+* technical builders
+* investors
+* hackathon participants
+* students interested in entrepreneurship
+
+He has spoken with many venture investors through Terra and startup activities.
+
+He is comfortable reaching out directly to founders, recruiters, investors, mentors, and collaborators.
+
+He often asks for communication that is concise and memorable.
+
+---
+
+# 69. PROFESSIONAL OUTREACH STYLE
+
+**Stability: Preference**
+
+When reaching out to recruiters, Kamran prefers messages that are:
+
+* short
+* direct
+* memorable
+* not generic
+* not overloaded with corporate language
+
+When asking someone for payment or following up on a freelance project, he often prefers the tone to be unusually friendly and nonconfrontational.
+
+---
+
+# 70. TECHNICAL CONFIDENCE / MOTIVATION
+
+**Stability: Important psychological context**
+
+Kamran periodically feels that he is "far behind" technically.
+
+This should not be interpreted as objective inability.
+
+His software skill is newer than several of his other strengths.
+
+At the same time, he has demonstrated unusually fast project execution across:
+
+* startups
+* growth
+* content
+* hackathons
+* research
+* computer vision
+* hardware integration
+
+When evaluating progress, compare Kamran to his own earlier skill level rather than only to lifelong programmers.
+
+However, JARVIS should not flatter him or fabricate competence.
+
+Accurate feedback is more valuable than reassurance.
+
+---
+
+# 71. TECHNICAL LEARNING GOAL
+
+**Stability: Durable**
+
+Kamran's core technical objective can be summarized as:
+
+> Become capable of building sophisticated AI/software systems from understanding, not merely from prompting.
+
+He wants to understand:
+
+* code
+* algorithms
+* data structures
+* ML
+* embeddings
+* computer vision
+* systems
+* architecture
+* debugging
+
+well enough to independently build.
+
+JARVIS itself is both a product and a vehicle for learning these skills.
+
+---
+
+# 72. JARVIS BEHAVIOR TOWARD KAMRAN
+
+**Stability: Core assistant behavior**
+
+JARVIS should know Kamran extremely well without constantly announcing that knowledge.
+
+Personal context should be used when it is relevant.
+
+JARVIS should not awkwardly inject unrelated personal facts into ordinary conversation.
+
+JARVIS should distinguish among:
+
+1. long-term facts,
+2. preferences,
+3. goals,
+4. dated states,
+5. uncertain facts,
+6. current sensor state.
+
+When facts conflict, newer explicitly stated information should normally supersede older information.
+
+JARVIS should preserve dates on facts likely to change.
+
+JARVIS should not pretend certainty.
+
+JARVIS should not flatter Kamran merely because it knows his goals.
+
+When Kamran is learning, JARVIS should optimize for **learning**, not fastest task completion.
+
+When Kamran asks JARVIS to actually perform a task, then task completion can become the priority.
+
+---
+
+# 73. PERSONAL MEMORY IMPORTANCE
+
+**Stability: Core project philosophy**
+
+Kamran ultimately wants JARVIS to know a very large amount about him.
+
+The objective is not simply:
+
+> "Store a biography."
+
+The objective is:
+
+> Build a usable, evolving model of Kamran's life and context.
+
+That can include:
+
+* who he is,
+* what he knows,
+* what he is learning,
+* what he likes,
+* what he dislikes,
+* what he is working on,
+* what he owns,
+* who matters to him,
+* what his long-term goals are,
+* what happened recently,
+* how he prefers to be taught,
+* what his devices are doing,
+* what is happening around him.
+
+This document is an initial static seed for that system.
+
+Eventually much of this should be updated automatically by the memory engine rather than manually rewriting one master file.
+
+---
+
+# 74. CHUNKING GUIDANCE FOR THIS DOCUMENT
+
+**Stability: Technical instruction**
+
+Do NOT embed this entire document as a single vector.
+
+Use section headings as natural semantic boundaries.
+
+A reasonable initial strategy is:
+
+* each numbered section = candidate chunk,
+* merge very small adjacent sections when strongly related,
+* split extremely large sections when they cover multiple independent concepts.
+
+The retriever should maintain an association between each chunk's embedding and the original text.
+
+Later each chunk can also carry metadata such as:
+
+* topic
+* entity
+* date
+* stability
+* importance
+* source
+* last updated
+
+Example:
+
+`topic: education`
+`subtopic: uchicago-transfer`
+`stability: current`
+`updated: 2026-09`
+
+This makes later temporal reasoning and memory maintenance easier.
+
+---
+
+# 75. SECURITY BOUNDARY
+
+**Stability: Permanent rule**
+
+This knowledge base may contain intimate personal information.
+
+It must not be treated as a secrets manager.
+
+Never place these directly inside embeddings or ordinary RAG text:
+
+* passwords
+* private authentication tokens
+* API keys
+* full financial credentials
+* secret smart-home credentials
+* recovery codes
+
+JARVIS may know **that** a service or credential exists without storing its secret value.
+
+---
+
+# 76. CURRENT JARVIS MILESTONE — SEPTEMBER 14, 2026
+
+**Stability: Temporary/project state**
+
+Kamran has now successfully implemented a basic retrieval system himself.
+
+He understands at a practical level:
+
+* context lists,
+* embeddings,
+* embedding dimensionality,
+* dot products,
+* vector norms,
+* cosine similarity,
+* similarity ranking,
+* retrieval by matching index.
+
+The next immediate architecture stage is:
+
+**voice transcription → query embedding → retrieve relevant personal/JARVIS context → insert retrieved context + user question into LLM request → answer**
+
+After that, the knowledge base should be expanded from small test sentences into semantically chunked documents such as this one.
+
+---
+
+# END OF MASTER CONTEXT
