@@ -4,6 +4,22 @@ from ultralytics import YOLO
 from mediapipe_gesture_recognition.YOLO import detect_objects
 #from tracker import Tracker
 from mediapipe_gesture_recognition.hand_tracker import run_hand_tracker
+from mediapipe_gesture_recognition.AI import jarvis_ai
+
+#import threading
+import numpy as np
+from sentence_transformers import SentenceTransformer
+from rag import read_context
+similarities = []
+doc_embeddings_list = []
+query = "How much money does Kamran want to make per year?"
+context = read_context()
+# Load the model
+model = SentenceTransformer("Qwen/Qwen3-VL-Embedding-2B")
+query_embeddings = model.encode(query)
+for i in context:
+    doc_embeddings = model.encode(i)
+    doc_embeddings_list.append(doc_embeddings)
  
 model = YOLO("yolo26n.pt")
 
@@ -11,6 +27,10 @@ webcam = cv2.VideoCapture(0)
 ret, img = webcam.read()
 
 img_h, img_w = img.shape[:2]
+
+# AI = threading.Thread(target=jarvis_ai)
+# AI.start()
+
 
 # tracker = Tracker(
 #     img_w,
