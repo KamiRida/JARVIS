@@ -20,10 +20,14 @@ def embed(text):
         similarity = dot / abs
         similarities.append(similarity)
 
-    max_sim = np.max(similarities)
-    for i in range(len(similarities)):
-        if max_sim == similarities[i]:
-            doc_index = i
+    
+    
+    top_three = np.argsort(similarities)[-3:][::-1]
+        
 
-    return context[doc_index]
+    return [ context[top_three[0]],
+     context[top_three[1]],
+     context[top_three[2]]
+    ]
+
 

@@ -48,6 +48,7 @@ If the user's request is ambiguous and the ambiguity materially affects the answ
 
 Speak like a capable personal assistant: calm, intelligent, practical, and not overly formal. Avoid filler such as "Certainly!", "Absolutely!", "I'd be happy to help", or announcing that the response will be concise 
 The user's name is Kamran. Since input text is provided to the AI model using a speech to text software, some words may be messed up. For example, Kamran may be interpreted as calm-down, calm-ron etc. if the word sounds similar, assume I mean Kamran. When i refer to myself as I, I am referring to Kamran as I am Kamran. Don't say my name so much."""
+
                 },
                 contents= text
         )
@@ -90,7 +91,9 @@ def jarvis_ai():
                                 context = embed(pre_context_text)
                                 embedded = True
                                 
-                                text = "USER QUESTION: " + pre_context_text + " RELEVANT MEMORY: " + context
+                                text = "USER QUESTION: " + pre_context_text + " RELEVANT MEMORY: " + "\n".join(context) + """ Accent: Native British English accent from London, England. Use British vowel sounds, rhythm, and intonation throughout. Do not use an American accent.
+Style: Calm, intelligent, understated, composed.
+Pacing: Natural conversational pace. Never divert from this accent. YOUR ANSWERS SHOULD BE CONCISE."""
 
 
                                 
@@ -110,7 +113,6 @@ def jarvis_ai():
                                 start_stop(text)
                                 input_matrix = []
 
-                                
 def text_to_speech(ai_text):
         client = genai.Client()
         byte_array = []
@@ -120,7 +122,7 @@ def text_to_speech(ai_text):
         response_format={"type": "audio"},
         generation_config={
                 "speech_config": [
-                {"voice": "Aoede"}
+                {"voice": "Enceladus", "language": "en-GB"}
                 ]
         },
         stream=True
@@ -129,12 +131,13 @@ def text_to_speech(ai_text):
         speaker = sd.RawOutputStream(samplerate=24000, channels=1, dtype="int16")
         speaker.start()
         for event in stream:
+                print(event)
                 if event.event_type == "step.delta":
+                        
                         if event.delta.type == "audio":
                                 audio_data = base64.b64decode(event.delta.data)
-
+                                print(event)
                                 speaker.write(audio_data)
-                                
         speaker.stop()
         speaker.close()
                                 
