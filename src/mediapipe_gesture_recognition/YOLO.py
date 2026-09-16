@@ -1,6 +1,11 @@
 from ultralytics import YOLO
 import cv2
 import numpy as np
+import serial
+import sys
+import time
+from nose_cam import send_coordinates_to_arduino
+
 model = YOLO("yolo26n.pt")
 def if_overlap(person_coordinates, object_coordinates):
     overlap_left = max(person_coordinates[0], object_coordinates[0])
@@ -15,7 +20,6 @@ def if_overlap(person_coordinates, object_coordinates):
 
     
 def detect_objects(img):
-    
     
 
     # reads frames from a camera
@@ -38,6 +42,8 @@ def detect_objects(img):
     person_coordinates = []
     object_coordinates = []
 
+    #Seeing if person and bed overlap
+
     for index, i in enumerate(result.boxes.cls):
         name = result.names[int(i)]
         detected.append(name)
@@ -52,6 +58,33 @@ def detect_objects(img):
         if_overlap(person_coordinates, object_coordinates)
         print(detected)
         print(dimensions)
+
+        #sending coordinates to Jarvis
+
+    for box in results[0].boxes.cls:
+        if int(box.cls == 0):
+            coordinates = box.xyxy
+            x = int(coordinates[0] + coordinates[2]) / 2
+            y = int(coordinates[1] + coordinates[3]) / 2
+
+            frame_center_x = img.shape[1] // 2
+            frame_center_y = img.shape[0] // 2
+
+    
+    
+            error_x = frame_center_x - x
+            error_y = frame_center_y - y
+
+            if abs(error_x) < 20:
+                error_x = 0
+    
+            if abs(error_y) < 20:
+                error_y = 0
+
+            send_coordinates_to_arduino(
+                        int(error_x),
+                        int(error_y)
+                    )
 
     return img
 

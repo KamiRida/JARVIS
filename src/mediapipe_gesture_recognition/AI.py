@@ -8,7 +8,7 @@ import numpy as np
 import wave
 from google import genai
 from dotenv import load_dotenv
-
+from rag.embedding import embed
 import base64
 load_dotenv()
 
@@ -69,14 +69,22 @@ def jarvis_ai():
                                         break
                         if input_matrix != []:
                                 full_audio = np.concatenate(input_matrix)
-                                text = mlx_whisper.transcribe(full_audio, language="en")["text"]
+                                pre_context_text = mlx_whisper.transcribe(full_audio, language="en")["text"]
+
+                                context = embed(pre_context_text)
+                                embedded = True
+                                
+                                text = "for your reply, make your answer short and concise" + pre_context_text + " " + context
+
+
+                                
                                 def start_stop(text):
                                        nonlocal ai_enabled
-                                       if text.strip().lower().rstrip(".!") == "stop":
+                                       if pre_context_text.strip().lower().rstrip(".!") == "stop":
                                               ai_enabled = False
-                                       if text.strip().lower().rstrip(".!?") == "listen":
+                                       if pre_context_text.strip().lower().rstrip(".!?") == "listen":
                                               ai_enabled = True
-                                       if ai_enabled == True and text.strip() != "":
+                                       if ai_enabled == True and pre_context_text.strip() != "":
                                               ai_text = pass_voice_input(text)
 
                                               try:
@@ -109,7 +117,6 @@ def text_to_speech(ai_text):
                         if event.delta.type == "audio":
                                 audio_data = base64.b64decode(event.delta.data)
 
-                                print("audio chunk received")
                                 speaker.write(audio_data)
                                 
         speaker.stop()

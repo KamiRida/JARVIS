@@ -12,7 +12,7 @@ stream = client.interactions.create(
     response_format={"type": "audio"},
     generation_config={
         "speech_config": [
-            {"voice": "Kore"}
+            {"voice": "Zubenelgenubi"}
         ]
     },
     stream=True
@@ -22,5 +22,3 @@ for event in stream:
     if event.event_type == "step.delta":
         if event.delta.type == "audio":
             audio_data = base64.b64decode(event.delta.data)
-
-            print(type(stream))
