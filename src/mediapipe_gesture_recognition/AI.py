@@ -153,11 +153,11 @@ def text_to_speech(ai_text):
                                 audio_data = base64.b64decode(event.delta.data)
                                 print(event)
                                 speaker.write(audio_data)
-                                if counter < 6:
+                                if counter < 20:
                                        mode = "chat"
-                                if counter == 6:
+                                if counter == 20:
                                         reset_triggered = True
-                                elif counter > 6:
+                                elif counter > 20:
                                         counter = 0
                                         mode = "chat"
                                         with open("chatcontext.txt", "w") as file:
