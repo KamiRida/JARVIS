@@ -7,3 +7,7 @@ __pycache__/
 *.pt
 *.tflite
 *.mp4
+knowledge.txt
+src/rag_system/knowledge.txt
+knowledge.txt
+src/rag_system/knowledge.txt
