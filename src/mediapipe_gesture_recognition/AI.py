@@ -12,6 +12,9 @@ from rag_system.embedding import embed, read_context, model, doc_embeddings_list
 import threading
 import base64
 from google.genai import types
+from elevenlabs.client import ElevenLabs
+from elevenlabs.play import play
+from elevenlabs.play import stream as play_stream
 load_dotenv()
 
 
@@ -66,11 +69,6 @@ The user's name is Kamran. Since input text is provided to the AI model using a 
         
         return response.text
 
-def stop_running(text):
-        if text == "stop":
-                running = False
-        if text == "restart":
-               running = True
 def jarvis_ai():
         input_matrix = []
         stream.start()
@@ -104,7 +102,7 @@ def jarvis_ai():
                                 retrieved_context = embed(pre_context_text)
                                 embedded = True
                                 
-                                text = "PAST CONTEXT OF THIS CHAT:\n " + running_context + "USER QUESTION:\n " + pre_context_text + " RELEVANT MEMORY:\n " + "\n".join(retrieved_context) + """\nConcise answer only. Talk super casually, like a teenager. No formalities."""
+                                text = "PAST CONTEXT OF THIS CHAT:\n " + running_context + "USER QUESTION:\n " + pre_context_text + " RELEVANT MEMORY:\n " + "\n".join(retrieved_context) + """\nConcise answer only. You are my assistant. You can be casual but remember I am your master. Call me sir sometimes."""
                         
                                 
                                 def start_stop(text):
@@ -129,45 +127,35 @@ def jarvis_ai():
 
 def text_to_speech(ai_text):
         global counter, reset_triggered, running_context, mode
-        client = genai.Client()
-        byte_array = []
-        stream = client.interactions.create(
-        model="gemini-3.1-flash-tts-preview",
-        input=ai_text,
-        response_format={"type": "audio"},
-        generation_config={
-                "speech_config": [
-                {"voice": "Enceladus"}
-                ]
-        },
-        stream=True
+        elevenlabs = ElevenLabs(
+        api_key=os.getenv("ELEVENLABS_API_KEY"),
         )
-        print("GEMINI STREAM CREATED")
-        speaker = sd.RawOutputStream(samplerate=24000, channels=1, dtype="int16")
-        speaker.start()
-        for event in stream:
-                print(event)
-                if event.event_type == "step.delta":
-                        
-                        if event.delta.type == "audio":
-                                audio_data = base64.b64decode(event.delta.data)
-                                print(event)
-                                speaker.write(audio_data)
-                                if counter < 20:
-                                       mode = "chat"
-                                if counter == 20:
-                                        reset_triggered = True
-                                elif counter > 20:
-                                        counter = 0
-                                        mode = "chat"
-                                        with open("chatcontext.txt", "w") as file:
-                                                file.write(running_context.removesuffix("Concise answer only. Talk super casually, like a teenager. No formalities."))
-                                        running_context = ""
-                                        reset_triggered = False
+        #JARVIS Speech with Eleven Labs
+        audio_stream = elevenlabs.text_to_speech.stream(
+        text=ai_text,
+        voice_id="NNl6r8mD7vthiJatiJt1",  # "Bradford - British Narrator, Storyteller
+        model_id="eleven_flash_v2_5",
+        output_format="mp3_44100_128",
+        )
+
+        print("ELEVEN LABS STREAM CREATED")
+
+        play_stream(audio_stream)
+        
+        if counter < 20:
+                mode = "chat"
+        if counter == 20:
+                reset_triggered = True
+        elif counter > 20:
+                counter = 0
+                mode = "chat"
+                with open("chatcontext.txt", "w") as file:
+                        file.write(running_context.removesuffix("Concise answer only. You are my assistant. You can be casual but remember I am your master. Call me sir sometimes."))
+                running_context = ""
+                reset_triggered = False
                                 
                                         
-        speaker.stop()
-        speaker.close()
+       
                                                     
 def context_window():
     global reset_triggered, mode, counter
