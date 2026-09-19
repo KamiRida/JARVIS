@@ -16,8 +16,8 @@ from elevenlabs.client import ElevenLabs
 from elevenlabs.play import play
 from elevenlabs.play import stream as play_stream
 load_dotenv()
-
-
+speech_lock = threading.Lock()
+pre_context_text = ""
 stream = sd.InputStream(samplerate = 16000, blocksize=2048, channels=1)
 def calc_rms(audio):
         return np.sqrt(np.mean(audio ** 2))
@@ -70,6 +70,7 @@ The user's name is Kamran. Since input text is provided to the AI model using a 
         return response.text
 
 def jarvis_ai():
+        global pre_context_text
         input_matrix = []
         stream.start()
         silence_duration = 0
@@ -126,33 +127,34 @@ def jarvis_ai():
                                 input_matrix = []
 
 def text_to_speech(ai_text):
-        global counter, reset_triggered, running_context, mode
-        elevenlabs = ElevenLabs(
-        api_key=os.getenv("ELEVENLABS_API_KEY"),
-        )
-        #JARVIS Speech with Eleven Labs
-        audio_stream = elevenlabs.text_to_speech.stream(
-        text=ai_text,
-        voice_id="NNl6r8mD7vthiJatiJt1",  # "Bradford - British Narrator, Storyteller
-        model_id="eleven_flash_v2_5",
-        output_format="mp3_44100_128",
-        )
+        with speech_lock:
+                global counter, reset_triggered, running_context, mode
+                elevenlabs = ElevenLabs(
+                api_key=os.getenv("ELEVENLABS_API_KEY"),
+                )
+                #JARVIS Speech with Eleven Labs
+                audio_stream = elevenlabs.text_to_speech.stream(
+                text=ai_text,
+                voice_id="NNl6r8mD7vthiJatiJt1",  # "Bradford - British Narrator, Storyteller
+                model_id="eleven_flash_v2_5",
+                output_format="mp3_44100_128",
+                )
 
-        print("ELEVEN LABS STREAM CREATED")
+                print("ELEVEN LABS STREAM CREATED")
 
-        play_stream(audio_stream)
-        
-        if counter < 20:
-                mode = "chat"
-        if counter == 20:
-                reset_triggered = True
-        elif counter > 20:
-                counter = 0
-                mode = "chat"
-                with open("chatcontext.txt", "w") as file:
-                        file.write(running_context.removesuffix("Concise answer only. You are my assistant. You can be casual but remember I am your master. Call me sir sometimes."))
-                running_context = ""
-                reset_triggered = False
+                play_stream(audio_stream)
+                
+                if counter < 20:
+                        mode = "chat"
+                if counter == 20:
+                        reset_triggered = True
+                elif counter > 20:
+                        counter = 0
+                        mode = "chat"
+                        with open("chatcontext.txt", "w") as file:
+                                file.write(running_context.removesuffix("Concise answer only. You are my assistant. You can be casual but remember I am your master. Call me sir sometimes."))
+                        running_context = ""
+                        reset_triggered = False
                                 
                                         
        
@@ -191,4 +193,5 @@ def embed_new_knowledge(compacted):
 
 if __name__ == "__main__":
     jarvis_ai()
+
 

@@ -4,7 +4,7 @@ import numpy as np
 import serial
 import sys
 import time
-from nose_cam import send_coordinates_to_arduino
+from .nose_cam import send_coordinates_to_arduino
 
 model = YOLO("yolo26n.pt")
 def if_overlap(person_coordinates, object_coordinates):
@@ -61,9 +61,9 @@ def detect_objects(img):
 
         #sending coordinates to Jarvis
 
-    for box in results[0].boxes.cls:
+    for box in results[0].boxes:
         if int(box.cls == 0):
-            coordinates = box.xyxy
+            coordinates = box.xyxy[0]
             x = int(coordinates[0] + coordinates[2]) / 2
             y = int(coordinates[1] + coordinates[3]) / 2
 
